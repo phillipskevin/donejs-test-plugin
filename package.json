@@ -1,6 +1,6 @@
 {
   "name": "donejs-test-plugin",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A plugin for testing donejs CLI functionality",
   "homepage": "http://donejs.com/",
   "license": "MIT",
