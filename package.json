@@ -1,0 +1,27 @@
+{
+  "name": "donejs-test-plugin",
+  "version": "0.0.0",
+  "description": "A plugin for testing donejs CLI functionality",
+  "homepage": "http://donejs.com/",
+  "license": "MIT",
+  "main": "lib",
+  "scripts": {
+    "publish": "git push origin --tags && git push origin",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:donejs/donejs-test-plugin.git",
+    "github": "https://github.com/donejs/donejs-test-plugin"
+  },
+  "author": {
+    "name": "Bitovi",
+    "email": "contact@bitovi.com",
+    "web": "http://bitovi.com/"
+  },
+  "keywords": [
+    "DoneJS"
+  ]
+}
