@@ -23,5 +23,8 @@
   },
   "keywords": [
     "DoneJS"
-  ]
+  ],
+  "dependencies": {
+    "q": "^1.4.1"
+  }
 }
